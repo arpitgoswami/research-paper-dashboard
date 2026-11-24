@@ -14,7 +14,7 @@ Swipe it like a phone app, edit it like a document, keep it in the browser.
 
 </div>
 
-![Desktop overview](assets/desktop-overview.jpg)
+![Desktop layout](assets/desktop-layout.svg)
 
 <div align="center"><sub>The desktop layout — a title page, its facing column of figures, and the fifteen-section index.</sub></div>
 
@@ -91,7 +91,7 @@ Nothing is uploaded anywhere.
 index.html   the stage, the three screens and the editor sheet mount
 styles.css   the whole visual system, responsive layout, motion
 app.js       state, localStorage, paging, editor, chiptune player
-assets/      README screenshots
+assets/      the desktop layout figure and screenshots
 ```
 
 ## License

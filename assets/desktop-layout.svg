@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="Desktop layout of the Research Paper Dashboard: a title page with a facing column of figures, next to the fifteen-section index">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="-10%" r="120%">
+      <stop offset="0%" stop-color="#1b1610"/>
+      <stop offset="62%" stop-color="#080706"/>
+      <stop offset="100%" stop-color="#060505"/>
+    </radialGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15120d"/>
+      <stop offset="22%" stop-color="#0d0b09"/>
+      <stop offset="55%" stop-color="#0a0908"/>
+      <stop offset="100%" stop-color="#0a0908"/>
+    </linearGradient>
+    <style>
+      .serif { font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .paper { fill: #f2ebdd; }
+      .paper2 { fill: #d5cbb9; }
+      .dim { fill: #9a9082; }
+      .accent { fill: #d8a441; }
+      .rule { stroke: #24211c; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="860" fill="url(#bg)"/>
+
+  <!-- the proof sheet -->
+  <rect x="40" y="30" width="1120" height="800" rx="18" fill="url(#stage)" stroke="#2a2621"/>
+  <g stroke="#38332c" stroke-width="1">
+    <path d="M56 72V56h16M1144 56h-16v16M56 788v16h16M1144 804h-16v-16"/>
+  </g>
+
+  <!-- top bar -->
+  <g>
+    <g transform="translate(84 63)">
+      <rect x="-12" y="-4" width="6" height="6" fill="#d8a441" transform="rotate(45)"/>
+      <text class="serif" x="0" y="4" font-size="19" fill="#d5cbb9">MTech review</text>
+    </g>
+    <text class="serif" x="1116" y="70" font-size="17" text-anchor="end" fill="#9a9082">2 / 15</text>
+    <line x1="40" y1="96" x2="1160" y2="96" class="rule"/>
+  </g>
+
+  <!-- overview: title column -->
+  <g>
+    <text class="serif" x="84" y="300" font-size="20" font-style="italic" fill="#d8a441">Gathering momentum</text>
+    <text class="serif" x="83" y="352" font-size="46" fill="#f2ebdd">MTech review paper</text>
+    <text class="serif" x="84" y="388" font-size="18" font-style="italic" fill="#9a9082">Every section, from working title to the viva slide deck.</text>
+
+    <line x1="84" y1="436" x2="592" y2="436" class="rule"/>
+    <text class="sans" x="84" y="464" font-size="13" fill="#d5cbb9" letter-spacing="0.4">04/15/2027</text>
+    <rect x="196" y="453" width="13" height="13" rx="2" fill="none" stroke="#4a443b"/>
+    <text class="sans" x="592" y="464" font-size="12" text-anchor="end" fill="#9a9082">142 days left</text>
+  </g>
+
+  <!-- overview: figures column -->
+  <g>
+    <text class="serif" x="642" y="288" font-size="70" fill="#f2ebdd">13</text>
+    <text class="serif" x="722" y="288" font-size="26" fill="#9a9082">%</text>
+    <text class="sans" x="746" y="284" font-size="12.5" fill="#9a9082">2 of 15 sections complete</text>
+
+    <g>
+      <rect x="642" y="306" width="34" height="14" fill="#d8a441"/>
+      <rect x="679" y="306" width="34" height="14" fill="#d8a441"/>
+      <rect x="716" y="306" width="34" height="14" fill="#d8a441" opacity="0.4"/>
+      <g fill="#211d18">
+        <rect x="753" y="306" width="34" height="14"/>
+        <rect x="790" y="306" width="34" height="14"/>
+        <rect x="827" y="306" width="34" height="14"/>
+        <rect x="864" y="306" width="34" height="14"/>
+        <rect x="901" y="306" width="34" height="14"/>
+        <rect x="938" y="306" width="34" height="14"/>
+        <rect x="975" y="306" width="34" height="14"/>
+        <rect x="1012" y="306" width="34" height="14"/>
+        <rect x="1049" y="306" width="34" height="14"/>
+        <rect x="1086" y="306" width="34" height="14"/>
+        <rect x="1123" y="306" width="34" height="14"/>
+      </g>
+    </g>
+
+    <line x1="642" y1="352" x2="1132" y2="352" class="rule"/>
+
+    <text class="serif" x="642" y="392" font-size="26" fill="#f2ebdd">2</text>
+    <text class="sans" x="642" y="412" font-size="10.5" fill="#9a9082">Complete</text>
+    <line x1="800" y1="366" x2="800" y2="416" class="rule"/>
+    <text class="serif" x="820" y="392" font-size="26" fill="#f2ebdd">1</text>
+    <text class="sans" x="820" y="412" font-size="10.5" fill="#9a9082">In progress</text>
+    <line x1="978" y1="366" x2="978" y2="416" class="rule"/>
+    <text class="serif" x="998" y="392" font-size="26" fill="#f2ebdd">13</text>
+    <text class="sans" x="998" y="412" font-size="10.5" fill="#9a9082">Open</text>
+
+    <!-- next card -->
+    <rect x="642" y="452" width="490" height="186" fill="#12100c" stroke="#282420"/>
+    <rect x="642" y="452" width="2" height="186" fill="#d8a441"/>
+    <text class="sans" x="666" y="486" font-size="10.5" letter-spacing="1.7" fill="#9a9082">NEXT</text>
+    <text class="serif" x="666" y="520" font-size="25" fill="#f2ebdd">Introduction</text>
+    <text class="sans" x="666" y="546" font-size="12.5" fill="#9a9082">Frame the field, state the review question and outline</text>
+    <text class="sans" x="666" y="564" font-size="12.5" fill="#9a9082">the structure of the paper in the final paragraph.</text>
+    <rect x="666" y="586" width="150" height="34" fill="#d8a441"/>
+    <path d="M683 604l5 5 9-9" fill="none" stroke="#191203" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="sans" x="704" y="608" font-size="12.5" font-weight="600" fill="#191203">Mark complete</text>
+  </g>
+
+  <!-- bottom navigation -->
+  <line x1="40" y1="772" x2="1160" y2="772" class="rule"/>
+  <g stroke="#6f6759" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M74 800l-7 6 7 6M80 806h-13"/>
+    <path d="M1126 800l7 6-7 6M1120 806h13"/>
+  </g>
+  <text class="sans" x="600" y="810" font-size="13" text-anchor="middle" fill="#f2ebdd" font-weight="500">Overview</text>
+  <text class="sans" x="676" y="810" font-size="13" text-anchor="middle" fill="#6f6759">Sections</text>
+  <text class="sans" x="742" y="810" font-size="13" text-anchor="middle" fill="#6f6759">Focus</text>
+  <line x1="568" y1="818" x2="632" y2="818" stroke="#d8a441"/>
+
+  <!-- auto-advance -->
+  <rect x="40" y="828" width="1120" height="2" fill="#191713"/>
+  <rect x="40" y="828" width="164" height="2" fill="#d8a441"/>
+</svg>
